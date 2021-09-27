@@ -1,0 +1,1 @@
+baidu.com##div[id==s-top-left]
