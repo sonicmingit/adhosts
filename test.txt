@@ -1,1 +1,1 @@
-baidu.com##div[id==s-top-left]
+baidu.com##div#s-top-left
