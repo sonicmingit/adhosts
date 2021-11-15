@@ -1,0 +1,8 @@
+# 酷安广告
+||coolapk.com/v6/feed/detail?$replace=/include_goods//
+||coolapk.com/v6/feed/detail?$replace=/hotSponsorCard//
+||coolapk.com/v6/feed/detail^$replace=/hotSponsorCard//
+||coolapk.com/v6/feed/detail^$replace=/detailSponsorCard//
+||coolapk.com/v6/feed/detail?$replace=/detailSponsorCard//
+||www.coolapk.com/feed/$removeparam=shareUid|shareFrom
+@@||image.coolapk.com^
