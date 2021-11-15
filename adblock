@@ -1,3 +1,5 @@
+! 截取一些能用到的广告过滤
+! https://raw.githubusercontent.com/sonicmingit/adhosts/main/adblock
 # 酷安广告
 ||coolapk.com/v6/feed/detail?$replace=/include_goods//
 ||coolapk.com/v6/feed/detail?$replace=/hotSponsorCard//
