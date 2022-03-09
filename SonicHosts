@@ -1,0 +1,52 @@
+###################
+##### 内网域名 #####
+###################
+10.0.0.10 lede.cc
+10.0.0.11 op.cc
+10.0.0.30 920.cc
+10.0.0.88 hass.cc
+10.0.0.245 dsm.cc
+10.0.0.250 unifi.cc
+
+
+###################
+##### 内网屏蔽 #####
+###################
+10.0.0.88 smartplugconnect.phicomm.com
+
+# 综合成一个文件
+# https://raw.githubusercontent.com/sonicmingit/adhosts/main/SonicHosts
+
+###################
+##### 注册屏蔽 #####
+###################
+#---------- Xshell ----------# 
+127.0.0.1 transact.netsarang.com
+127.0.0.1 update.netsarang.com
+127.0.0.1 www.netsarang.com
+127.0.0.1 www.netsarang.co.kr
+127.0.0.1 sales.netsarang.com
+#---------- Navcat ----------# 
+127.0.0.1 activate.navicat.com
+#---------- IDEA屏蔽 ----------# 
+127.0.0.1 account.jetbrains.com
+# 127.0.0.1 jetbrains.com
+127.0.0.1 account.jetbrains.com
+127.0.0.1 SteveCode.jetbrains.com
+127.0.0.1 jrebel.npegeek.com
+127.0.0.1 oauth.account.jetbrains.com
+
+
+###################
+##### 精选广告屏蔽 #####
+###################
+! 截取一些能用到的广告过滤
+! https://raw.githubusercontent.com/sonicmingit/adhosts/main/adblock
+# 酷安广告
+||coolapk.com/v6/feed/detail?$replace=/include_goods//
+||coolapk.com/v6/feed/detail?$replace=/hotSponsorCard//
+||coolapk.com/v6/feed/detail^$replace=/hotSponsorCard//
+||coolapk.com/v6/feed/detail^$replace=/detailSponsorCard//
+||coolapk.com/v6/feed/detail?$replace=/detailSponsorCard//
+||www.coolapk.com/feed/$removeparam=shareUid|shareFrom
+@@||image.coolapk.com^
