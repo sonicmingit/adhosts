@@ -82,6 +82,9 @@ hacs.xyz 162.243.166.170
 127.0.0.1 jrebel.npegeek.com
 127.0.0.1 oauth.account.jetbrains.com
 
+#---------- switch ---------# 
+address=/atum.hac.lp1.d4c.nintendo.net/23.56.180.81
+
 
 ######################
 ##### 精选广告屏蔽 #####
