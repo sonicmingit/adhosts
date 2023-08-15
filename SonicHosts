@@ -99,11 +99,11 @@ address=/atum.hac.lp1.d4c.nintendo.net/23.56.180.81
 ! 截取一些能用到的广告过滤
 ! https://raw.githubusercontent.com/sonicmingit/adhosts/main/adblock
 # 酷安广告
-||coolapk.com/v6/feed/detail?$replace=/include_goods//
-||coolapk.com/v6/feed/detail?$replace=/hotSponsorCard//
-||coolapk.com/v6/feed/detail^$replace=/hotSponsorCard//
-||coolapk.com/v6/feed/detail^$replace=/detailSponsorCard//
-||coolapk.com/v6/feed/detail?$replace=/detailSponsorCard//
-||www.coolapk.com/feed/$removeparam=shareUid|shareFrom
-@@||image.coolapk.com^
+#||coolapk.com/v6/feed/detail?$replace=/include_goods//
+#||coolapk.com/v6/feed/detail?$replace=/hotSponsorCard//
+#||coolapk.com/v6/feed/detail^$replace=/hotSponsorCard//
+#||coolapk.com/v6/feed/detail^$replace=/detailSponsorCard//
+#||coolapk.com/v6/feed/detail?$replace=/detailSponsorCard//
+#||www.coolapk.com/feed/$removeparam=shareUid|shareFrom
+#@@||image.coolapk.com^
 
